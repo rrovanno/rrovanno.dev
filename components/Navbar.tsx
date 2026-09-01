@@ -2,7 +2,26 @@ import CursorTarget from "@/components/cursor/CursorTarget";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full p-6 flex justify-between">
+    <nav
+  className="
+    fixed
+    top-0
+    z-[100]
+    flex
+    w-full
+    justify-between
+    p-6
+
+    bg-background/70
+    backdrop-blur-xl
+    border-b
+    border-foreground/10
+
+    md:bg-transparent
+    md:backdrop-blur-none
+    md:border-transparent
+  "
+>
       <CursorTarget>
 <CursorTarget>
   <a 
