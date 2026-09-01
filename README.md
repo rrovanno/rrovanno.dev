@@ -1,21 +1,30 @@
-# Next.js template
+# rrovanno.dev
 
-This is a Next.js template with shadcn/ui.
+My personal portfolio — a home for the things I build, experiment with, and occasionally get way too invested in.
 
-## Adding components
+Built with a focus on simple design, thoughtful interaction, and a little personality.
 
-To add components to your app, run the following command:
+## Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Base UI
+- Motion
+
+## Currently featuring
+
+The portfolio highlights projects across software, AI, web, and interactive experiences, including:
+
+- **Atlas** — a local-first personal knowledge system built around user-owned knowledge.
+- **V.RO** — a hybrid AI assistant combining local and cloud intelligence.
+- **Seal** — a digital letters experience built around preserving meaningful memories.
+
+## Development
+
+Run the project locally:
 
 ```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+npm install
+npm run dev
