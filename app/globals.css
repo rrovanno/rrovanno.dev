@@ -137,3 +137,12 @@
     scroll-behavior: smooth;
     }
 }
+
+/* Hide scrollbar while keeping scrolling enabled */
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}

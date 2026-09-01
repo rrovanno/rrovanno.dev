@@ -1,6 +1,3 @@
-import { Button } from "@/components/ui/button";
-import CursorTarget from "@/components/cursor/CursorTarget";
-
 export default function LandingHero() {
   return (
     <section
@@ -23,25 +20,6 @@ export default function LandingHero() {
           I'm Rovanno, a developer passionate about building products,
           AI systems, and experiences that put people first.
         </p>
-
-    <div className="mt-10 flex justify-center gap-4">
-    <CursorTarget>
-    <a href="#projects">
-        <Button size="lg">
-        View Projects
-        </Button>
-    </a>
-    </CursorTarget>
-
-  <CursorTarget>
-  <a href="#projects">
-    <Button size="lg">
-      Contact
-    </Button>
-  </a>
-  </CursorTarget>
-    
-    </div>
 
       </div>
     </section>

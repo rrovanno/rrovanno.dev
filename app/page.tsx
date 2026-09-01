@@ -3,6 +3,7 @@ import LandingHero from "@/components/LandingHero";
 import About from "@/components/LandingAbout";
 import Projects from "@/components/Projects";
 import CustomCursor from "@/components/CustomCursor";
+import Atmosphere from "@/components/Atmosphere";
 
 export default function Home() {
   return (
@@ -13,7 +14,10 @@ export default function Home() {
       <Navbar />
       <LandingHero />
       <About />
-      <Projects />
+
+      <Atmosphere>
+        <Projects />
+      </Atmosphere>
 
     </main>
   );
