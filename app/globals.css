@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+
+
+@theme {
+  --font-carattere: "Carattere", cursive;
+}
 
 @custom-variant dark (&:is(.dark *));
 
@@ -119,11 +125,15 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+        cursor: none;
+
     }
   body {
     @apply bg-background text-foreground;
+    cursor: none;
     }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
     }
 }
