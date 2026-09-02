@@ -25,7 +25,7 @@ export default function Listening({
           transition={{ duration: 0.6 }}
           className="text-sm uppercase tracking-[0.3em] text-muted-foreground"
         >
-          What I'm Listening To
+          Now Listening
         </motion.p>
 
         <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-center">

@@ -64,7 +64,7 @@ export default function About() {
           }}
         >
           <p className="mt-8 text-lg leading-8 text-muted-foreground">
-            I'm Rovanno, a Computer Science graduate from Indonesia who likes
+            Hello there! I'm Vanno, a Computer Science graduate from Indonesia who likes
             turning ideas into things that actually work. I build across desktop,
             web, and interactive software, usually starting with a problem or an
             idea and figuring out the technology needed to make it real.

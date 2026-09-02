@@ -151,3 +151,17 @@ html,
 body {
   overflow-x: hidden;
 }
+
+.project-modal-scroll {
+  scrollbar-width: none;
+}
+
+.project-modal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
